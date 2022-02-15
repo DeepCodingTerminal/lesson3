@@ -38,13 +38,11 @@ public class RegistrationPage {
   public RegistrationPage openPage() {
     open("/automation-practice-form");
     headerTitle.shouldHave(text("Student Registration Form"));
-
     return this;
   }
 
   public RegistrationPage setFirstName(String firstName) {
     firstNameInput.setValue(firstName);
-
     return this;
   }
 
